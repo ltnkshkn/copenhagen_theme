@@ -7,7 +7,7 @@
 body {
   background-color: $sui-color-brand-denim-100;
   color: $sui-color-text;
-  font-family: $sui-font-family-primary;
+  font-family: $sui-font-family-secondary;
   font-size: rem(16);
   font-weight: 400;
   line-height: 1.5;
@@ -19,6 +19,7 @@ body {
 
 body > main {
   flex-grow: 1;
+
   @media (min-width: rem(1024)) {
     min-height: 65vh;
   }
