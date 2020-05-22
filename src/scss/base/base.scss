@@ -2,6 +2,7 @@
 /***** Base *****/
 * {
   box-sizing: border-box;
+  backface-visibility: visible !important;
 }
 
 body {

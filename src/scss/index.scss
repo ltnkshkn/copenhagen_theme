@@ -8,18 +8,6 @@
 @import "saagie-ui/_functions/contrast";
 
 // -------------------------
-//    Mixins
-// -------------------------
-@import "saagie-ui/_mixins/focus-effect";
-@import "saagie-ui/_mixins/media-queries";
-@import "saagie-ui/_mixins/reponsive-modifiers";
-@import "saagie-ui/grid/_mixins/grid";
-@import "saagie-ui/helpers/_mixins/margin";
-@import "saagie-ui/helpers/_mixins/padding";
-@import "saagie-ui/helpers/_mixins/display";
-@import "saagie-ui/helpers/_mixins/text";
-
-// -------------------------
 //    Settings
 // -------------------------
 @import "saagie-ui/_settings/border-radius";
@@ -33,6 +21,18 @@
 @import "saagie-ui/_settings/typography";
 @import "saagie-ui/_settings/font-awesome";
 @import "saagie-ui/_settings/z-index";
+
+// -------------------------
+//    Mixins
+// -------------------------
+@import "saagie-ui/_mixins/focus-effect";
+@import "saagie-ui/_mixins/media-queries";
+@import "saagie-ui/_mixins/reponsive-modifiers";
+@import "saagie-ui/grid/_mixins/grid";
+@import "saagie-ui/helpers/_mixins/margin";
+@import "saagie-ui/helpers/_mixins/padding";
+@import "saagie-ui/helpers/_mixins/display";
+@import "saagie-ui/helpers/_mixins/text";
 
 // -------------------------
 //    Grids
@@ -78,7 +78,6 @@
 // Organisms
 @import "organisms/collapsible-nav";
 @import "organisms/comments";
-@import "organisms/contributions";
 @import "organisms/dropdowns";
 @import "organisms/my-activities";
 @import "organisms/post";

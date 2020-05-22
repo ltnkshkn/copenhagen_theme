@@ -1,7 +1,4 @@
 /***** tables *****/
-.m-table {
-
-}
 
 table {
   width: 100%;
@@ -10,7 +7,8 @@ table {
   border-collapse: collapse;
 }
 
-th,td {
+th,
+td {
   padding: 9px 18px 9px 9px;
   border-bottom: 1px solid #eff0f1;
   text-align: left;
@@ -30,7 +28,7 @@ td {
 }
 
 .table th a {
-  color: #0172F5;
+  color: #0172f5;
   font-size: 16px;
   text-align: left;
 }

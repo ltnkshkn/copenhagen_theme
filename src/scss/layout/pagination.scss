@@ -1,7 +1,5 @@
 /***** Pagination *****/
-.l-pagination {
 
-}
 .pagination {
   margin: 20px 0;
   text-align: center;
@@ -34,19 +32,22 @@
   background-color: #f3f3f3;
 }
 
-.pagination li:hover:not(.pagination-current) span, .pagination li:hover:not(.pagination-current) a {
+.pagination li:hover:not(.pagination-current) span,
+.pagination li:hover:not(.pagination-current) a {
   color: $text_color;
   text-decoration: none;
 }
 
-.pagination a, .pagination span {
+.pagination a,
+.pagination span {
   font-size: 15px;
   color: lighten($text_color, 20%);
   padding: 10px 12px;
 }
 
 @media (min-width: 768px) {
-  .pagination a, .pagination span {
+  .pagination a,
+  .pagination span {
     font-size: 13px;
     padding: 5px 12px;
   }
@@ -56,7 +57,8 @@
   background-color: $brand_color;
 }
 
-.pagination-current a, .pagination-current span {
+.pagination-current a,
+.pagination-current span {
   color: $brand_text_color;
 }
 

@@ -1,11 +1,8 @@
 /***** Recent activity *****/
-.o-recent-activity {
-
-}
 
 .recent-activity-header {
   margin-bottom: 10px;
-  text-align:left;
+  text-align: left;
 }
 
 .recent-activity-list {
@@ -22,7 +19,8 @@
   font-size: 16px;
 }
 
-.recent-activity-item-parent, .recent-activity-item-link {
+.recent-activity-item-parent,
+.recent-activity-item-link {
   margin: 6px 0;
   color: $text_color;
   display: inline-block;
@@ -30,7 +28,8 @@
 }
 
 @media (min-width: 768px) {
-  .recent-activity-item-parent, .recent-activity-item-link {
+  .recent-activity-item-parent,
+  .recent-activity-item-link {
     width: 70%;
     margin: 0;
   }
@@ -57,7 +56,8 @@
   }
 }
 
-.recent-activity-item-time, .recent-activity-item-comment {
+.recent-activity-item-time,
+.recent-activity-item-comment {
   color: lighten($text_color, 20%);
   display: inline-block;
   font-size: 13px;

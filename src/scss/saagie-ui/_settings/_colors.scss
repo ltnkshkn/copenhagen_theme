@@ -37,7 +37,7 @@ $sui-color-warning-text: darken($sui-color-warning, 22%) !default;
 $sui-color-success-base: 160;
 
 $sui-color-success: hsl($sui-color-success-base, 65%, 39%) !default;
-$sui-color-success-dark: suicolorvariantdark($sui-color-success-base, $l: 20%) !default;
+$sui-color-success-dark: suicolorvariantdark($sui-color-success-base, 20%) !default;
 $sui-color-success-light: suicolorvariantlight($sui-color-success-base) !default;
 $sui-color-success-text: darken($sui-color-success, 7.5%) !default;
 
