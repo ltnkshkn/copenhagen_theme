@@ -1,14 +1,11 @@
 /***** Actions *****/
-.m-actions {
-
-}
 
 /* Styles admin and en user actions(edit, delete, change status) in comments and posts */
 .actions {
   text-align: center;
   flex-shrink: 0;
 
-  /*Avoid collapsing elements in Safari*/
+  /* Avoid collapsing elements in Safari */
 }
 
 .actions .dropdown-toggle {
@@ -16,7 +13,9 @@
   margin: 15px 0;
 }
 
-.actions .dropdown-toggle:hover::before, .actions .dropdown-toggle:focus::before, .actions .dropdown-toggle:active::before {
+.actions .dropdown-toggle:hover::before,
+.actions .dropdown-toggle:focus::before,
+.actions .dropdown-toggle:active::before {
   background-color: darken($background_color, 3%);
 }
 

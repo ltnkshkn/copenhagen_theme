@@ -1,7 +1,4 @@
 /***** Vote *****/
-.m-vote {
-
-}
 
 .vote {
   display: inline-block;
@@ -13,7 +10,9 @@
   outline: none;
 }
 
-.vote a:active, .vote a:hover, .vote a:focus {
+.vote a:active,
+.vote a:hover,
+.vote a:focus {
   text-decoration: none;
 }
 
@@ -33,7 +32,8 @@
   color: $brand_color;
 }
 
-.vote-up::before, .vote-down::before {
+.vote-up::before,
+.vote-down::before {
   color: lighten($text_color, 20%);
   font-size: 24px;
 }

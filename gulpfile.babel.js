@@ -31,17 +31,18 @@ export const buildScss = () => src(`src/scss/index.scss`)
   .pipe($concat('saagie.scss'))
   .pipe(dest(`./styles`));
 
-export const lintScss = () => src('src/scss/*.scss')
+export const lintScss = () => src('src/scss/**/*.scss')
   .pipe($stylelint({
     reporters: [{ formatter: 'string', console: true }],
   }));
 
 export const buildDefaultScss = (cb) => execCommand('ruby ./bin/compile.rb', cb);
 
-export const watchScss = () => watch('./src/scss/**/*.scss', series(buildScss, buildDefaultScss));
+export const watchScss = () => watch('./src/scss/**/*.scss', series(buildScss, lintScss, buildDefaultScss));
 
 export const build = series(
   buildScss,
+  lintScss,
   buildDefaultScss
 );
 

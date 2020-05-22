@@ -57,8 +57,9 @@
     padding-bottom: rem(55);
 
     &__tile {
+      background: $sui-color-brand-denim-200;
+      border-radius: $sui-border-radius-xl;
       border: rem(1) solid $sui-color-border;
-      border-radius: rem(3);
       box-sizing: border-box;
       color: $sui-color-text;
       display: flex;
@@ -70,19 +71,21 @@
       text-align: center;
       margin: 0 rem(15) rem(30);
       padding: 0 !important;
+      transition: .2s;
+      transform: translate3d(0, 0, 0);
 
       &:hover,
       &:focus {
-        border: rem(1) solid $sui-color-primary;
-        box-shadow: 0 0 rem(1) $sui-color-primary;
-        background-color: transparent;
+        background: $sui-color-brand-denim-100;
+        border-color: transparent;
+        box-shadow: $sui-shadow-300;
         color: $sui-color-text;
+        transform: scale(1.02) rotate(.0001deg);
       }
 
       &:hover *,
       &:focus * {
         text-decoration: none;
-        background-color: transparent;
         color: $sui-color-text;
       }
 

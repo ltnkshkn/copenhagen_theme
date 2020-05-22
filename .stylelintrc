@@ -1,7 +1,6 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "unit-blacklist": "px",
     "at-rule-no-unknown": null,
     "number-leading-zero": null,
     "no-descending-specificity": null,

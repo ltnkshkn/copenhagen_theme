@@ -1,7 +1,4 @@
 /* Requests table */
-.o-requests-search {
-
-}
 
 .requests-search {
   width: 100%;
@@ -86,8 +83,8 @@
     margin-left: 10px;
   }
 
-  [dir="rtl"] .requests-table-toolbar .organization-subscribe, [dir="rtl"]
-  .requests-table-toolbar .organization-unsubscribe {
+  [dir="rtl"] .requests-table-toolbar .organization-subscribe,
+  [dir="rtl"] .requests-table-toolbar .organization-unsubscribe {
     margin: 0 10px 0 0;
   }
 }
@@ -191,7 +188,8 @@
   order: 1;
 }
 
-.request-main .comment-fields, .request-main .request-submit-comment {
+.request-main .comment-fields,
+.request-main .request-submit-comment {
   display: none;
 }
 
@@ -322,7 +320,8 @@
   border: 0;
 }
 
-.request-details dt, .request-details dd {
+.request-details dt,
+.request-details dd {
   display: inline-block;
   vertical-align: top;
   font-size: 13px;
@@ -349,7 +348,8 @@
   display: inline-block;
 }
 
-.request-attachments dt, .request-attachments dd {
+.request-attachments dt,
+.request-attachments dd {
   width: 100%;
 }
 

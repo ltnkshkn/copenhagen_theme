@@ -1,7 +1,5 @@
 /***** Comments *****/
-.o-comment {
 
-}
 /* Styles comments inside articles, posts and requests */
 .comment {
   border-bottom: 1px solid #ddd;
@@ -199,20 +197,27 @@
   max-width: 100%;
 }
 
-.comment-body ul, .comment-body ol {
+.comment-body ul,
+.comment-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
 }
 
-[dir="rtl"] .comment-body ul, [dir="rtl"] .comment-body ol {
+[dir="rtl"] .comment-body ul,
+[dir="rtl"] .comment-body ol {
   padding-right: 20px;
   padding-left: 0;
   margin-left: 0;
   margin-right: 20px;
 }
 
-.comment-body ul > ul, .comment-body ol > ol, .comment-body ol > ul, .comment-body ul > ol, .comment-body li > ul, .comment-body li > ol {
+.comment-body ul > ul,
+.comment-body ol > ol,
+.comment-body ol > ul,
+.comment-body ul > ol,
+.comment-body li > ul,
+.comment-body li > ol {
   margin: 0;
 }
 

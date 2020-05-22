@@ -1,9 +1,6 @@
 /***** Striped list *****/
 
 /* Used in community posts list and requests list */
-.m-striped-list {
-
-}
 
 .striped-list {
   padding: 0;
@@ -35,9 +32,12 @@
   margin-right: 5px;
 }
 
-.striped-list-title:hover, .striped-list-title:focus, .striped-list-title:active {
+.striped-list-title:hover,
+.striped-list-title:focus,
+.striped-list-title:active {
   text-decoration: underline;
 }
+
 .striped-list-title:visited {
   color: darken($link_color, 20%);
 }
