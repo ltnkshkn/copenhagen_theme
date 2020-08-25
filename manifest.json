@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "2.2.4",
+  "version": "2.2.7",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -378,70 +378,35 @@
           "identifier": "link_01",
           "type": "text",
           "description": " ",
-          "label": "User documentation URL",
+          "label": "Installation guide",
           "value": "URL"
         },
         {
           "identifier": "link_02",
           "type": "text",
           "description": " ",
-          "label": "Getting started",
+          "label": "Developer Documentation",
           "value": "URL"
         },
         {
           "identifier": "link_03",
           "type": "text",
           "description": " ",
-          "label": "Tutorials",
+          "label": "User Documentation",
           "value": "URL"
         },
         {
           "identifier": "link_04",
           "type": "text",
           "description": " ",
-          "label": "FAQ",
+          "label": "V1 Docs (Legacy)",
           "value": "URL"
         },
         {
           "identifier": "link_05",
           "type": "text",
           "description": " ",
-          "label": "Documentation V1 (Legacy)",
-          "value": "URL"
-        },
-        {
-          "identifier": "link_06",
-          "type": "text",
-          "description": " ",
-          "label": "Plugins",
-          "value": "URL"
-        },
-        {
-          "identifier": "link_07",
-          "type": "text",
-          "description": " ",
-          "label": "Instalation documentation",
-          "value": "URL"
-        },
-        {
-          "identifier": "link_08",
-          "type": "text",
-          "description": " ",
-          "label": "Operations documentation",
-          "value": "URL"
-        },
-        {
-          "identifier": "link_09",
-          "type": "text",
-          "description": " ",
-          "label": "SDK",
-          "value": "URL"
-        },
-        {
-          "identifier": "link_10",
-          "type": "text",
-          "description": " ",
-          "label": "Troubleshooting",
+          "label": "Saagie Support",
           "value": "URL"
         }
       ]
