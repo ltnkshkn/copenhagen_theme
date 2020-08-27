@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
+  "name": "Saagie Help Center from Copenhagen",
   "author": "Zendesk",
-  "version": "3.0.0",
+  "version": "2.3.1",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -379,35 +379,35 @@
           "type": "text",
           "description": " ",
           "label": "Installation guide",
-          "value": "URL"
+          "value": "https://docs.saagie.io/product/latest/installation/index.html"
         },
         {
           "identifier": "link_02",
           "type": "text",
           "description": " ",
           "label": "Developer Documentation",
-          "value": "URL"
+          "value": "https://docs.saagie.io/product/latest/index.html"
         },
         {
           "identifier": "link_03",
           "type": "text",
           "description": " ",
           "label": "User Documentation",
-          "value": "URL"
+          "value": "https://docs.saagie.io/user-doc/latest/index.html"
         },
         {
           "identifier": "link_04",
           "type": "text",
           "description": " ",
           "label": "V1 Docs (Legacy)",
-          "value": "URL"
+          "value": "https://creativedata.atlassian.net/wiki/spaces/SAP/overview"
         },
         {
           "identifier": "link_05",
           "type": "text",
           "description": " ",
           "label": "Saagie Support",
-          "value": "URL"
+          "value": "https://saagie.zendesk.com/hc/en-us/categories/360001270891-Troubleshooting"
         }
       ]
     }
