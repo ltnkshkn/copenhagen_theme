@@ -1,6 +1,20 @@
 /***** Header *****/
 $header-height: 71px;
 
+.docs-banner {
+  text-align: center;
+  padding: 16px 0;
+  background: #c4dffd;
+  color: #134681;
+
+  a.button {
+    background: #0172f5;
+    color: #fff;
+    border: none;
+    margin-left: 12px;
+  }
+}
+
 .header {
   @include max-width-container;
   position: relative;
