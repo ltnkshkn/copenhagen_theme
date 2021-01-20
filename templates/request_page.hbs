@@ -217,10 +217,14 @@
           {{/if}}
 
           {{#each custom_fields}}
-            <dt>{{title}}</dt>
-            <dd>
-              {{value}}
-            </dd>
+              {{#is value "—"}}
+
+              {{else}}
+                <dt>{{title}}</dt>
+                <dd>
+                  {{value}}
+                </dd>
+              {{/is}}
           {{/each}}
         </dl>
 
